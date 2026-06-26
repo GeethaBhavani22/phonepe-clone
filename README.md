@@ -1,70 +1,107 @@
-# Getting Started with Create React App
+# 💜 PhonePe Clone - Full Stack Web Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A full-stack PhonePe Clone developed using React.js, Spring Boot, and MySQL. The application simulates a digital payment platform where users can register, log in securely, manage their wallet, and perform UPI-based money transfers.
 
-## Available Scripts
+## 🚀 Features
 
-In the project directory, you can run:
+- User Registration
+- Secure User Login
+- Wallet Balance Management
+- Add Money to Wallet
+- Send Money using UPI ID
+- User Profile Management
+- RESTful APIs
+- Swagger API Documentation
+- MySQL Database Integration
+- Responsive User Interface
 
-### `npm start`
+## 🛠️ Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Frontend
+- React.js
+- HTML5
+- CSS3
+- JavaScript
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Backend
+- Spring Boot
+- Spring MVC
+- Spring Data JPA
+- Maven
 
-### `npm test`
+### Database
+- MySQL
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### API Testing
+- Swagger UI
+- Postman
 
-### `npm run build`
+### Tools
+- Git
+- GitHub
+- VS Code
+- IntelliJ IDEA
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📂 Project Structure
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+phonepe-clone/
+│
+├── PhonePe Wallet Backend/
+├── phonepe frontend/
+├── db/
+└── README.md
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## ⚙️ Installation
 
-### `npm run eject`
+### Clone the repository
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+git clone https://github.com/GeethaBhavani22/phonepe-clone.git
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Backend
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Open the backend project in IntelliJ IDEA.
+2. Configure MySQL in `application.properties`.
+3. Run the Spring Boot application.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Frontend
 
-## Learn More
+```bash
+cd "phonepe frontend/phonepe"
+npm install
+npm start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📖 API Documentation
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+After starting the backend:
 
-### Code Splitting
+```
+http://localhost:8080/swagger-ui/index.html
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 📌 Main APIs
 
-### Analyzing the Bundle Size
+- POST `/api/users/register`
+- POST `/api/users/login`
+- GET `/api/users/profile/{upiId}`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 🔮 Future Enhancements
 
-### Making a Progressive Web App
+- JWT Authentication
+- Transaction History
+- QR Code Payments
+- Email & OTP Verification
+- Docker Deployment
+- AWS Cloud Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 👩‍💻 Developer
 
-### Advanced Configuration
+**Geetha Bhavani**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+B.Tech – Data Science
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Passionate about Java, Spring Boot, Full Stack Development, Cloud Computing, and Software Engineering.
